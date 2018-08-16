@@ -2,31 +2,53 @@
 img{
   height: 60%;
   width: 30%;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
+}
+
+#main_img {
+  height: 60%;
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+  border: 2px red solid;
+}
+
+.gallery {
   border: 2px red solid;
 }
 
 /*Editing h1(main) heading*/
 h1{
+  text-align: left;
   display: inline;
-  color: #9933ff;
+  color: #E80101;
 }
 
 /*Editing frame object properties*/
 iframe{
+  position: right;
+  text-align: right;
   display: inline;
-  border: 2px blue dashed;
+  padding: 0;
+  border: 2px #EB8801 dashed;
 }
 
 /*Editing main body properties*/
 body{
-  background-color: #0F8;
+  background-color: #1AEEE7;
   font-family: fantasy;
   font-size: 15px;
 }
 
 /*Editing divider properties*/
 div{
-  text-align: center;
+  background-image: url("https://78.media.tumblr.com/7d930381e399e944f2704ea293e75463/tumblr_okgtijJbpL1rcufwuo1_500.gif");
+}
+
+/*Editing subheading 1 id*/
+#subheading_1 {
+  font-style: italic;
+  font-weight: normal;
+  color: #B901E8
 }
