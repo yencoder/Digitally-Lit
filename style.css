@@ -2,7 +2,7 @@
 img{
   height: 60%;
   width: 30%;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   border: 2px red solid;
 }
@@ -16,6 +16,7 @@ h1{
 /*Editing frame object properties*/
 iframe{
   display: inline;
+  padding: 0;
   border: 2px blue dashed;
 }
 
