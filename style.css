@@ -7,22 +7,30 @@ img{
   border: 2px red solid;
 }
 
+#main_img {
+  height: 60%;
+  width: 30%;
+  display: inline-block;
+  margin: 0 auto;
+  border: 2px red solid;
+}
+
 /*Editing h1(main) heading*/
 h1{
   display: inline;
-  color: #9933ff;
+  color: #E80101;
 }
 
 /*Editing frame object properties*/
 iframe{
   display: inline;
   padding: 0;
-  border: 2px blue dashed;
+  border: 2px #EB8801 dashed;
 }
 
 /*Editing main body properties*/
 body{
-  background-color: #0F8;
+  background-color: #1AEEE7;
   font-family: fantasy;
   font-size: 15px;
 }
@@ -30,4 +38,11 @@ body{
 /*Editing divider properties*/
 div{
   text-align: center;
+}
+
+/*Editing subheading 1 id*/
+#subheading_1 {
+  font-style: italic;
+  font-weight: normal;
+  color: #B901E8
 }
