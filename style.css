@@ -4,7 +4,6 @@ img{
   width: 30%;
   display: inline-block;
   margin: 0 auto;
-  border: 2px red solid;
 }
 
 #main_img {
@@ -15,14 +14,21 @@ img{
   border: 2px red solid;
 }
 
+.gallery {
+  border: 2px red solid;
+}
+
 /*Editing h1(main) heading*/
 h1{
+  text-align: left;
   display: inline;
   color: #E80101;
 }
 
 /*Editing frame object properties*/
 iframe{
+  position: right;
+  text-align: right;
   display: inline;
   padding: 0;
   border: 2px #EB8801 dashed;
@@ -37,7 +43,7 @@ body{
 
 /*Editing divider properties*/
 div{
-  text-align: center;
+  background-image: url("https://78.media.tumblr.com/7d930381e399e944f2704ea293e75463/tumblr_okgtijJbpL1rcufwuo1_500.gif");
 }
 
 /*Editing subheading 1 id*/
