@@ -37,6 +37,8 @@ iframe{
 /*Editing main body properties*/
 body{
   background-color: #1AEEE7;
+  background-image: url("https://i.pinimg.com/originals/b7/89/b3/b789b34f9978a5b2c7a51adc9f620935.gif");
+  background-size: contain;
   font-family: fantasy;
   font-size: 15px;
 }
@@ -44,6 +46,7 @@ body{
 /*Editing divider properties*/
 div{
   background-image: url("https://78.media.tumblr.com/7d930381e399e944f2704ea293e75463/tumblr_okgtijJbpL1rcufwuo1_500.gif");
+  background-size: auto;
 }
 
 /*Editing subheading 1 id*/
