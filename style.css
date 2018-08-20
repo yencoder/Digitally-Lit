@@ -1,5 +1,25 @@
+.boxtest {
+  height: 3000px;
+}
+
+/*Editing html background*/
+html {
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #70bg32;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient(to left top, red, black);
+    background: -moz-linear-gradient(to left top, red, black);
+    background: -ms-linear-gradient(to left top, red, black);
+    background: -o-linear-gradient(to left top, red, black);
+    background: linear-gradient(to right bottom, lightpink, lightblue);
+}
+
 /*Editing image properties*/
-img{
+img {
   height: 60%;
   width: 30%;
   display: inline-block;
@@ -50,12 +70,7 @@ h1 {
 
 /*Editing main body properties*/
 body{
-  background-color: #1AEEE7;
-  background-image: url("http://getwallpapers.com/wallpaper/full/2/4/8/946166-purple-pink-wallpaper-1920x1080-for-mac.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-
+  color: #1AEEE7;
   font-family: fantasy;
   font-size: 15px;
 }
