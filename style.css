@@ -1,6 +1,6 @@
-.boxtest {
+/* .boxtest {
   height: 3000px;
-}
+}*/
 
 /*Editing html background*/
 html {
@@ -115,4 +115,13 @@ body{
 
 #container_3 {
   border: 0;
+}
+
+/* Editing gallery webpage */
+.thumbs img {
+  height: 30%;
+  width: 30%;
+  border-color: red;
+  border-style: solid;
+  border-radius: 2px;
 }
